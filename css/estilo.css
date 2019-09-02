@@ -5,15 +5,34 @@ body {
   background-position: center !important;
   background-attachment: fixed !important;
   /* min-height: 1400px !important; */
-  
 }
+
 .contenedor-color {
   height: 18vh;
   width: 100%;
-  background: rgba(40, 38, 89, 0.80);
+  background: rgba(40, 38, 89, 0.90);
   position: fixed;
   z-index: -1;
 }
-.cabecera{
+.texto-alternativo{
+  padding-top: 40px;
+}
+
+.logo {
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
   
+}
+.menu-botones{
+  margin-top: 10px;
+  padding-right: 15px;
+}
+
+.menu-botones .btn{
+  background: #0d8a2e;
+}
+.menu-botones .btn:hover{
+  background: #4faa33;
 }
