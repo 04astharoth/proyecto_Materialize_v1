@@ -4,7 +4,6 @@ body {
   background-repeat: no-repeat !important;
   background-position: center !important;
   background-attachment: fixed !important;
-  /* min-height: 1400px !important; */
 }
 
 .contenedor-color {
@@ -15,7 +14,7 @@ body {
   z-index: -1;
 }
 .texto-alternativo{
-  padding-top: 40px;
+  padding-top: 20px;
 }
 
 .logo {
