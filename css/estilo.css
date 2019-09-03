@@ -7,7 +7,7 @@ body {
 }
 
 .contenedor-color {
-  height: 18vh;
+  height: 18%;
   width: 100%;
   background: rgba(40, 38, 89, 0.90);
   position: fixed;
@@ -15,7 +15,7 @@ body {
 }
 
 .texto-alternativo {
-  padding-top: 20px;
+  margin-top: 15px !important;
 }
 
 img {
@@ -43,4 +43,10 @@ img {
 .social-media a img {
   width: 80%;
   padding-bottom: 15px;
+}
+
+@media (max-width: 900px) {
+  .contenedor-color {
+    height: 15%;
+  }
 }
