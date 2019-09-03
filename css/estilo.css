@@ -13,24 +13,34 @@ body {
   position: fixed;
   z-index: -1;
 }
-.texto-alternativo{
+
+.texto-alternativo {
   padding-top: 20px;
+}
+
+img {
+  width: 100%;
 }
 
 .logo {
   margin-top: 20px;
-  width: 100%;
   border-radius: 5px;
-  
 }
-.menu-botones{
+
+.menu-botones {
   margin-top: 10px;
   padding-right: 15px;
 }
 
-.menu-botones .btn{
+.menu-botones .btn {
   background: #0d8a2e;
 }
-.menu-botones .btn:hover{
+
+.menu-botones .btn:hover {
   background: #4faa33;
+}
+
+.social-media a img {
+  width: 80%;
+  padding-bottom: 15px;
 }
