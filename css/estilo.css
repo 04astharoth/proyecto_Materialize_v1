@@ -4,6 +4,7 @@ body {
   background-repeat: no-repeat !important;
   background-position: center !important;
   background-attachment: fixed !important;
+  padding-right: 15px;
 }
 
 .contenedor-color {
@@ -25,7 +26,6 @@ body {
 
 .menu-botones {
   margin-top: 10px;
-  padding-right: 15px;
 }
 
 .menu-botones .btn {
@@ -39,6 +39,15 @@ body {
 .social-media a img {
   width: 80%;
   padding-bottom: 15px;
+}
+
+.galeria-imagenes {
+  background: rgba(255, 255, 255, 0.7) !important;
+  border-radius: 5px;
+}
+
+.galeria-imagenes .col img {
+  margin: 10px auto;
 }
 
 @media (max-width: 900px) {
