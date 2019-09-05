@@ -1,0 +1,40 @@
+  /* label color */
+  .input-field label {
+    color: #fafafa !important;
+  }
+  /* label focus color */
+  .input-field input[type=text]:focus + label {
+    color: #fafafa;
+  }
+  /* label underline focus color */
+  .input-field input[type=text]:focus {
+    box-shadow: 0 1px 0 0 #fafafa !important;
+    border-bottom: 1px solid #fafafa !important;
+  }
+  textarea:focus {
+    border-bottom: 1px solid #fafafa !important;
+    box-shadow: 0 1px 0 0 #fafafa !important;
+  }
+  
+  /* icon prefix focus color */
+  .input-field .prefix.active {
+    color: #fafafa;
+  }
+  .input-field .prefix {
+    color: #fafafa;
+  }
+   
+
+   input[type="text"]{
+     border-bottom: 1px solid #fafafa;
+     color: #fafafa !important;
+     font-size: 1.3rem !important;
+   }
+
+   .collection a.collection-item{
+     color: #ff8f00 !important;
+   }
+
+   .collection a.collection-item span{
+     color: #397af3 !important;
+   }
