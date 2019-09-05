@@ -46,10 +46,6 @@ body {
   border-radius: 5px;
 }
 
-.galeria-imagenes .col img {
-  margin: 10px auto;
-}
-
 .img-entrada{
   width:30%; 
   max-height: auto;
