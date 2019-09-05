@@ -3,7 +3,7 @@ body {
   background-size: cover !important;
   background-repeat: no-repeat !important;
   background-position: center !important;
-  background-attachment: fixed !important;  
+  background-attachment: fixed !important;
 }
 
 .contenedor-color {
@@ -18,6 +18,14 @@ body {
   margin-top: 15px !important;
 }
 
+.icono {
+  cursor: pointer;
+  float: right;
+  font-size: 16px;
+  line-height: 32px;
+  padding-left: 8px;
+}
+
 .logo {
   margin-top: 20px;
   border-radius: 5px;
@@ -27,12 +35,17 @@ body {
   margin-top: 10px;
 }
 
-.menu-botones .btn {
+.btn {
   background: #0d8a2e;
 }
 
-.menu-botones .btn:hover {
+.btn:hover {
   background: #4faa33;
+}
+
+
+.caja-comentario {
+  background: rgba(40, 38, 89, 0.90);
 }
 
 .social-media a img {
@@ -45,21 +58,22 @@ body {
   border-radius: 5px;
 }
 
-.img-entrada{
-  width:30%; 
+.img-entrada {
+  width: 30%;
   max-height: auto;
   margin-right: 10px;
   margin-bottom: 10px;
 }
 
-.text-justify{
+.text-justify {
   text-align: justify;
 }
+
 @media (max-width: 900px) {
   .contenedor-color {
     height: 15%;
   }
-  .img-entrada{
-    width:100%;
+  .img-entrada {
+    width: 100%;
   }
 }
