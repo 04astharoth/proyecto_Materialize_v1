@@ -50,8 +50,21 @@ body {
   margin: 10px auto;
 }
 
+.img-entrada{
+  width:30%; 
+  max-height: auto;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.text-justify{
+  text-align: justify;
+}
 @media (max-width: 900px) {
   .contenedor-color {
     height: 15%;
+  }
+  .img-entrada{
+    width:100%;
   }
 }
