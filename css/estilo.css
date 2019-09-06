@@ -43,7 +43,6 @@ body {
   background: #4faa33;
 }
 
-
 .caja-comentario {
   background: rgba(40, 38, 89, 0.90);
 }
@@ -54,7 +53,7 @@ body {
 }
 
 .galeria-imagenes {
-  background: rgba(255, 255, 255, 0.7) !important;
+  background: rgba(255, 255, 255, 0.7)!important;
   border-radius: 5px;
 }
 
